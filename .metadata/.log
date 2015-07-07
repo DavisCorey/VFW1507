@@ -1,0 +1,69 @@
+!SESSION 2015-07-06 19:53:41.804 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/CoreyDavis/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/CoreyDavis/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-06 19:55:02.013
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.core 4 0 2015-07-06 19:55:05.028
+!MESSAGE (Build 4.0.1.1432662390) [ERROR]  null
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:262)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:381)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:345)
+	at com.aptana.core.util.ProcessRunner.processResult(ProcessRunner.java:432)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.runCommand(NodeAppcCLI.java:224)
+	at com.appcelerator.titanium.rcp.handlers.TitaniumSplashHandler$3.run(TitaniumSplashHandler.java:289)
+
+!ENTRY com.appcelerator.titanium.rcp 4 0 2015-07-06 19:55:05.031
+!MESSAGE (Build 4.0.1.1432662390) [ERROR]  Failed to check login status. Likely not logged in.
+
+!ENTRY com.aptana.scripting 4 0 2015-07-06 19:56:31.376
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Failed to load bundle /Applications/Appcelerator Studio/plugins/com.appcelerator.titanium.core_3.1.2.1431731757/bundles/titanium_mobile.ruble
+!STACK 0
+Can't construct a java object for !ruby/object:Ruble::Bundle; exception=Invalid tag: !ruby/object:Ruble::Bundle
+ in 'reader', line 1, column 5:
+    --- !ruby/object:Ruble::Bundle
+        ^
+
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:336)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:182)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:141)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:127)
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:481)
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:424)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:331)
+	at com.aptana.scripting.model.BundleCacher.load(BundleCacher.java:289)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.yaml.snakeyaml.error.YAMLException: Invalid tag: !ruby/object:Ruble::Bundle
+	at org.yaml.snakeyaml.nodes.Tag.getClassName(Tag.java:107)
+	at org.yaml.snakeyaml.constructor.Constructor.getClassForNode(Constructor.java:631)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.getConstructor(Constructor.java:322)
+	at org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:332)
+	... 9 more
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-07-06 19:56:51.257
+!MESSAGE (Build 4.0.1.201506021908) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-07-06 19:56:51.262
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-07-06 19:56:51.263
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-07-06 19:56:51.264
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-07-06 19:56:51.265
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY com.aptana.core 4 1 2015-07-06 19:57:10.499
+!MESSAGE sudo: a password is required
