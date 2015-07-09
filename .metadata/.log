@@ -508,3 +508,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Corey
 
 !ENTRY com.aptana.samples 4 0 2015-07-08 22:17:23.093
 !MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-08 22:55:51.368
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
