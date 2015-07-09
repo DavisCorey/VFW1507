@@ -411,3 +411,100 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/Corey
 
 !ENTRY com.aptana.samples 4 0 2015-07-06 23:38:38.799
 !MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+!SESSION 2015-07-07 17:57:12.157 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/CoreyDavis/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/CoreyDavis/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-07 17:57:17.647
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-07-07 17:57:42.045
+!MESSAGE (Build 4.0.1.201506021908) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-07-07 17:57:42.046
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-07-07 17:57:42.054
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-07-07 17:57:42.055
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-07-07 17:57:42.057
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-07 17:59:31.279
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2015-07-08 22:14:57.794 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/CoreyDavis/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/CoreyDavis/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-08 22:15:09.042
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.aptana.core 4 0 2015-07-08 22:15:13.805
+!MESSAGE (Build 4.0.1.1432662390) [ERROR]  null
+!STACK 0
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:503)
+	at java.lang.UNIXProcess.waitFor(UNIXProcess.java:262)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:381)
+	at com.aptana.core.util.ProcessRunner.processData(ProcessRunner.java:345)
+	at com.aptana.core.util.ProcessRunner.processResult(ProcessRunner.java:432)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.runCommand(NodeAppcCLI.java:224)
+	at com.appcelerator.titanium.rcp.handlers.TitaniumSplashHandler$3.run(TitaniumSplashHandler.java:289)
+
+!ENTRY com.appcelerator.titanium.rcp 4 0 2015-07-08 22:15:13.809
+!MESSAGE (Build 4.0.1.1432662390) [ERROR]  Failed to check login status. Likely not logged in.
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-07-08 22:15:52.285
+!MESSAGE (Build 4.0.1.201506021908) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:15:52.288
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:15:52.296
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:15:52.298
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:15:52.300
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
+
+!ENTRY org.eclipse.core.jobs 2 2 2015-07-08 22:16:55.236
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.aptana.usage.internal.DefaultAnalyticsEventHandler$1
+!SESSION 2015-07-08 22:16:56.935 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/CoreyDavis/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/CoreyDavis/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2015-07-08 22:17:00.543
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.appcelerator.titanium.ui.ide 4 0 2015-07-08 22:17:23.083
+!MESSAGE (Build 4.0.1.201506021908) [ERROR] com.appcelerator.titanium.core/debug/dashboard Unknown SDK windows
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:17:23.084
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Employee Directory
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:17:23.091
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Movies
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:17:23.092
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Geocoder
+
+!ENTRY com.aptana.samples 4 0 2015-07-08 22:17:23.093
+!MESSAGE (Build 4.0.1.201506021908) [ERROR]  Unable to retrieve the icon at null for sample Rss Reader
